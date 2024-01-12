@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-finalnaya-кабинет-e",
+  "editForm": "i-i-s-finalnaya-кабинет-e",
+  "external": false,
+  "caption": "Кабинет",
+  "name": "IISFinalnayaКабинетL",
+  "className": "КабинетL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalnaya-кабинет",
+      "modelProjection": "КабинетL"
+    }
+  ]
+}

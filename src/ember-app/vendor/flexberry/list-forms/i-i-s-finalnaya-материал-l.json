@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-finalnaya-материал-e",
+  "editForm": "i-i-s-finalnaya-материал-e",
+  "external": false,
+  "caption": "Материал",
+  "name": "IISFinalnayaМатериалL",
+  "className": "МатериалL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalnaya-материал",
+      "modelProjection": "МатериалL"
+    }
+  ]
+}

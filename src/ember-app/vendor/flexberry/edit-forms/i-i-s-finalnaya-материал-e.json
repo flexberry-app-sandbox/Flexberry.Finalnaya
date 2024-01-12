@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Материал",
+  "name": "IISFinalnayaМатериалE",
+  "className": "МатериалE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalnaya-материал",
+      "modelProjection": "МатериалE"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+﻿{
+  "name": "IISFinalnayaМатериал",
+  "modelName": "i-i-s-finalnaya-материал",
+  "className": "Материал",
+  "nameSpace": "IIS.Finalnaya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кодМатериала",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "производитель",
+      "relatedTo": "i-i-s-finalnaya-производитель",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "МатериалE",
+      "modelName": "i-i-s-finalnaya-материал",
+      "attrs": [
+        {
+          "name": "кодМатериала",
+          "caption": "Код материала",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "МатериалL",
+      "modelName": "i-i-s-finalnaya-материал",
+      "attrs": [
+        {
+          "name": "кодМатериала",
+          "caption": "Код материала",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,45 @@
+﻿{
+  "name": "IISFinalnayaОказаниеУслуг",
+  "modelName": "i-i-s-finalnaya-оказание-услуг",
+  "className": "ОказаниеУслуг",
+  "nameSpace": "IIS.Finalnaya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудник",
+      "relatedTo": "i-i-s-finalnaya-сотрудник",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "услуга",
+      "relatedTo": "i-i-s-finalnaya-услуга",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "запись",
+      "relatedTo": "i-i-s-finalnaya-запись",
+      "inverse": "оказаниеУслуг"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОказаниеУслугE",
+      "modelName": "i-i-s-finalnaya-оказание-услуг",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

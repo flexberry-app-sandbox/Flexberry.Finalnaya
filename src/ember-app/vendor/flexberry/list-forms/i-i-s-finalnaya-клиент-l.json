@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-finalnaya-клиент-e",
+  "editForm": "i-i-s-finalnaya-клиент-e",
+  "external": false,
+  "caption": "Клиент",
+  "name": "IISFinalnayaКлиентL",
+  "className": "КлиентL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalnaya-клиент",
+      "modelProjection": "КлиентL"
+    }
+  ]
+}

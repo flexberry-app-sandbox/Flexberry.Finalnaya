@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Должность",
+  "name": "IISFinalnayaДолжностьE",
+  "className": "ДолжностьE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalnaya-должность",
+      "modelProjection": "ДолжностьE"
+    }
+  ]
+}

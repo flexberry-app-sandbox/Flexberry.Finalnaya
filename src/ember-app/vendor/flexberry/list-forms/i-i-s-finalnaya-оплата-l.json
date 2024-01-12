@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-finalnaya-оплата-e",
+  "editForm": "i-i-s-finalnaya-оплата-e",
+  "external": false,
+  "caption": "Оплата",
+  "name": "IISFinalnayaОплатаL",
+  "className": "ОплатаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalnaya-оплата",
+      "modelProjection": "ОплатаL"
+    }
+  ]
+}

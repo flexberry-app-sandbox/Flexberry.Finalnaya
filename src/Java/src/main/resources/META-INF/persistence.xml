@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Finalnaya.model.Material</class>
+        <class>Finalnaya.model.Dokumenty</class>
+        <class>Finalnaya.model.Oplata</class>
+        <class>Finalnaya.model.Usluga</class>
+        <class>Finalnaya.model.Dolzhnost</class>
+        <class>Finalnaya.model.Kabinet</class>
+        <class>Finalnaya.model.Sotrudnik</class>
+        <class>Finalnaya.model.Zapis</class>
+        <class>Finalnaya.model.Proizvoditel</class>
+        <class>Finalnaya.model.Klient</class>
+        <class>Finalnaya.model.SostavUslugi</class>
+        <class>Finalnaya.model.OkazanieUslug</class>
+        <class>Finalnaya.model.FlexberryAdvLimit</class>
+        <class>Finalnaya.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Finalnaya.model.NewPlatformFlexberryServicesLock</class>
+        <class>Finalnaya.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

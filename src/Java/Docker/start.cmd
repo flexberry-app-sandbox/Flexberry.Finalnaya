@@ -1,0 +1,1 @@
+docker-compose -p finalnaya-java up -d

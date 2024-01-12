@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-finalnaya-запись-e",
+  "editForm": "i-i-s-finalnaya-запись-e",
+  "external": false,
+  "caption": "Запись",
+  "name": "IISFinalnayaЗаписьL",
+  "className": "ЗаписьL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalnaya-запись",
+      "modelProjection": "ЗаписьL"
+    }
+  ]
+}

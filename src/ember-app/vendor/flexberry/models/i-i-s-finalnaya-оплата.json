@@ -1,0 +1,83 @@
+﻿{
+  "name": "IISFinalnayaОплата",
+  "modelName": "i-i-s-finalnaya-оплата",
+  "className": "Оплата",
+  "nameSpace": "IIS.Finalnaya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "оплачено",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "типОплаты",
+      "type": "i-i-s-finalnaya-тип-оплаты",
+      "flexberryType": "ТипОплаты",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "запись",
+      "relatedTo": "i-i-s-finalnaya-запись",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОплатаE",
+      "modelName": "i-i-s-finalnaya-оплата",
+      "attrs": [
+        {
+          "name": "оплачено",
+          "caption": "Оплачено",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "типОплаты",
+          "caption": "Тип оплаты",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ОплатаL",
+      "modelName": "i-i-s-finalnaya-оплата",
+      "attrs": [
+        {
+          "name": "оплачено",
+          "caption": "Оплачено",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "типОплаты",
+          "caption": "Тип оплаты",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

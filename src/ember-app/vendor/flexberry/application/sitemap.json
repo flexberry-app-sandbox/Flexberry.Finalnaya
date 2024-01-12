@@ -1,0 +1,78 @@
+﻿{
+  "applicationCaption": "Finalnaya",
+  "applicationTitle": "Finalnaya",
+  "items": [
+    {
+      "link": null,
+      "menuName": "finalnaya",
+      "caption": "Finalnaya",
+      "title": "Finalnaya",
+      "children": [
+        {
+          "link": "i-i-s-finalnaya-материал-l",
+          "menuName": null,
+          "caption": "Материал",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalnaya-оплата-l",
+          "menuName": null,
+          "caption": "Оплата",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalnaya-услуга-l",
+          "menuName": null,
+          "caption": "Услуга",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalnaya-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalnaya-кабинет-l",
+          "menuName": null,
+          "caption": "Кабинет",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalnaya-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalnaya-запись-l",
+          "menuName": null,
+          "caption": "Запись",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalnaya-производитель-l",
+          "menuName": null,
+          "caption": "Производитель",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalnaya-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

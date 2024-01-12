@@ -1,0 +1,70 @@
+﻿{
+  "name": "IISFinalnayaСоставУслуги",
+  "modelName": "i-i-s-finalnaya-состав-услуги",
+  "className": "СоставУслуги",
+  "nameSpace": "IIS.Finalnaya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "единицы",
+      "type": "i-i-s-finalnaya-единицы",
+      "flexberryType": "Единицы",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "количество",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "материал",
+      "relatedTo": "i-i-s-finalnaya-материал",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "услуга",
+      "relatedTo": "i-i-s-finalnaya-услуга",
+      "inverse": "составУслуги"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СоставУслугиE",
+      "modelName": "i-i-s-finalnaya-состав-услуги",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "единицы",
+          "caption": "Единицы",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

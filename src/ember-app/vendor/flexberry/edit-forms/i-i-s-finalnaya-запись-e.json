@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Запись",
+  "name": "IISFinalnayaЗаписьE",
+  "className": "ЗаписьE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalnaya-запись",
+      "modelProjection": "ЗаписьE"
+    }
+  ]
+}

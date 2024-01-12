@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-finalnaya-услуга-e",
+  "editForm": "i-i-s-finalnaya-услуга-e",
+  "external": false,
+  "caption": "Услуга",
+  "name": "IISFinalnayaУслугаL",
+  "className": "УслугаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalnaya-услуга",
+      "modelProjection": "УслугаL"
+    }
+  ]
+}

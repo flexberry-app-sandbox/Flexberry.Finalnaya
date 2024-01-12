@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Кабинет",
+  "name": "IISFinalnayaКабинетE",
+  "className": "КабинетE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalnaya-кабинет",
+      "modelProjection": "КабинетE"
+    }
+  ]
+}
